@@ -2,7 +2,8 @@
 
 from __future__ import annotations
 
-from Domain RAG (LangChain)langchain_core.language_models.chat_models import BaseChatModel
+#from DomainRAG (LangChain)langchain_core.language_models.chat_models import BaseChatModel
+from langchain_core.language_models.chat_models import BaseChatModel
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.retrievers import BaseRetriever
 from langchain_core.runnables import RunnableLambda
